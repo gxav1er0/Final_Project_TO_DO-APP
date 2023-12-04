@@ -49,10 +49,8 @@ app.get('/', (req, res) => {
             }
         })
 
-        
+        res.render('home', { tarefas })
     })
-
-    res.render('home')
 })
 
 const conexao = mysql.createConnection({

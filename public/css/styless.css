@@ -220,6 +220,7 @@ main{
     }
 
     .tarefas .tarefa{
+
         padding: 1.25rem 1.5rem;
     }
 
@@ -241,7 +242,7 @@ main{
     }
 
     .informacoes a:hover{
-        color: var(--info-button-hover);
+        color: purple;
     }
 
     .tarefa button{
